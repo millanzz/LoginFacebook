@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .input-login-facebook{
+        @apply border-gray-300 rounded-sm border-2 w-full h-12 mb-2.5 pl-2;
+    }
+}
+@layer components{
+    .button-entrar-facebook{
+        @apply h-12 w-full bg-blue-facebook rounded-md text-white font-bold;
+    }
+}
+@layer components{
+    .button-criar-nova-conta-facebook{
+        @apply h-12 w-40 bg-lima-facebook rounded-md text-white font-bold flex items-center justify-center px-4;
+    }
+}
